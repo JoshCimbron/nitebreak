@@ -8,13 +8,13 @@
     <meta name="keywords" content="Design,Prototyping,Interactive Design,Designer,Rhode Island">
     <meta name="author" content="Joshua Cimbron">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Roboto+Condensed:wght@300&family=Roboto:wght@300;400;700&display&family=Roboto+Mono:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;700&display&family=Roboto+Mono:wght@300;400;600;700&Indie+Flower&display=swap" rel="stylesheet">
     <!-- CSS for hamburger menu -->
     <link href="hamburger-menus/hamburgers.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
+    <nav id="nav-container">
         <div id="navbar"> 
             <div id="hamburger-container">
                 <button class="hamburger hamburger--elastic js-hamburger" type="button">
@@ -27,10 +27,18 @@
         <a href="#projects" class="list-item">Projects</a>
         <a href="#about" class="list-item">About</a>
         <a href="index.html" class="last-item"><img src="imgs/logo.svg" alt="Nitebreak logo"></a>
-        </a>
         </div>
 
     </nav>
+
+      <!-- Overlay Nav for Mobile -->
+      <div id="mobile-nav" class="overlay">
+        <div class="overlay-content">
+            <a href="#about" class="mobile-item">About</a>
+            <a href="#projects" class="mobile-item">Projects</a>
+            <a href="contact.html" class="mobile-item-last">Contact</a>
+        </div>
+    </div>
 
     <section class="section" id="title">
         <div class="layout-container-left">
@@ -164,8 +172,8 @@
         <h6>Next case study</h6>
         <h3>Case study title</h3>
         <div class="button-wrap">
-        <a href="index.html" class="button" id="button-ghost-dark">Take me home</a>
-        <a href="" class="button" id="button-solid-dark">Read the case study</a>
+        <a href="index.html" class="button" id="button-ghost-lite">Take me home</a>
+        <a href="" class="button" id="button-solid-lite">Read the case study</a>
         </div>
         </div>
     </section>
@@ -174,17 +182,17 @@
         <div class="width-60">
             <div class="contact-content">
             <h2>Ready to create something awesome?</h2>
-            <a href="" class="button" id="button-solid-dark">Let's talk business</a>
+            <a href="contact.html" class="button" id="button-solid-dark">Let's talk business</a>
         </div></div>
         </section>
-        
+    
         <section id="footer">
             <div class="footer-container">
     
             <div class="sub-nav">
-            <a href="#" class="list-item">Contact</a>
-            <a href="#" class="list-item">Projects</a>
-            <a href="#" class="list-item">About</a>
+            <a href="#contact" class="list-item">Contact</a>
+            <a href="#projects" class="list-item">Projects</a>
+            <a href="#about" class="list-item">About</a>
             </div>
     
             <div class="misc">
@@ -196,9 +204,9 @@
         </div>
     </div>
         </section>
-
-          <!-- Javascript for Hamburger Menu -->
-     <script type="text/javascript" src="hamburger-menus/hamburger-scripts.js"></script>
+         <!-- Javascript for Hamburger Menu -->
+         <script type="text/javascript" src="hamburger-menus/hamburger-scripts.js"></script>
+         <script type="text/javascript" src="script.js"></script>
 
 </body>
 </html>
