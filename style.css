@@ -217,7 +217,7 @@ a{
 @media only screen and (max-width: 768px){
 
     #mobile-nav{
-        display: block;
+       display: block;
     }
 
     .overlay{
@@ -232,6 +232,13 @@ a{
         background-color: #2C1E6C;
         overflow: hidden;
         transition: 0.45s ease;
+    }
+
+    .overlay-container{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .overlay-content {
