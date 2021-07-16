@@ -302,11 +302,20 @@ a{
 }
 
 #hero-wrap{
+    background-color: #0C0134;
     background-image: url('imgs/hero_background.svg');
     width: 100%;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+
+    #hero-wrap{
+        background-position: -225px;
+        margin-bottom: 34px;
+    }
 }
 
 .hero-container{
