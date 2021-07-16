@@ -418,7 +418,7 @@ a{
         max-width: 100%;
         grid-template-columns: repeat(1, 1fr); 
         grid-auto-rows: 100vw;
-        gap: 1rem;
+        gap: 2rem;
     }
 }
 
@@ -1107,4 +1107,39 @@ input[type=submit]{
     .feature-container img{
         width: 100%;
     }
+}
+
+/* No case study */
+
+#no-case{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#no-case h2{
+    color: #8E71FF;
+    margin-bottom: 2rem;
+}
+
+#no-case p{
+    margin-bottom: 2rem;
+}
+
+#no-case .button:first-of-type{
+    background-color: #FFB4AC;
+    color: #571C17;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 1023px) {
+
+    #no-case .button:first-of-type{
+        margin-right: 0rem;
+    }
+}
+
+#no-case .button:last-of-type{
+    background-color: #C8B5FF;
+    color: #251B4C;
 }
