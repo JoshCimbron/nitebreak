@@ -1179,6 +1179,11 @@ input[type=submit]{
     margin-right: 1rem;
 }
 
+
+#whats-next-cadabra{
+    color: #261768;
+}
+
 @media screen and (max-width: 1023px) {
 
     #no-case .button:first-of-type{
