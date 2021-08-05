@@ -625,6 +625,7 @@ a{
 
 
 /* case study styling */
+/* 4 Seasons */
 
 #title{
     display: flex;
@@ -864,6 +865,28 @@ a{
     padding-bottom: 40px;
 }
 
+#programming-story .width-60 p:nth-child(3){
+    margin-top: 20px;
+    color: #8f9199;
+}
+
+#programming-story .width-60 a{
+    font-size: 2.0rem;
+    line-height: 4rem;
+    color: #43508b;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+#programming-story .width-60 a:hover{
+    font-size: 2.0rem;
+    line-height: 4rem;
+    color: #2a366e;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
 
 @media screen and (max-width: 1023px) {
 
