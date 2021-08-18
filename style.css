@@ -46,7 +46,7 @@ body{
 }
 
 #button-solid-lite{
-    background-color: #2C1E65;
+    background-color: #5036b6;
     color: white;
 }
 
@@ -386,9 +386,7 @@ a{
     background-color: white;
 }
 
-.about-container h3{
-    color: #8E71FF;
-}
+
 
 .about-container span{
     text-decoration: line-through;
@@ -508,7 +506,7 @@ a{
 }
 
 .contact-content h2{
-    color: #8E71FF;
+    color: #ab6bff;
 }
 .contact-content #button-solid-dark{
     background-color: #6AF5D4;
@@ -638,7 +636,11 @@ h3, h4, h6{
 }
 
 #title h2{
-    color: #1f1642;
+    color: #5e43c6;
+}
+
+#title h5{
+    color: #5e43c6;
 }
 
 .layout-container-left{
@@ -677,6 +679,10 @@ h3, h4, h6{
     align-items: center;
     justify-content: center;
     margin: 120px 0;
+}
+
+#challenge h6{
+    color: #1f1642;
 }
 
 @media screen and (max-width: 768px){
@@ -1083,7 +1089,6 @@ h3, h4, h6{
 }
 
 .bio h3{
-    color: #8E71FF;
     line-height: 140%;
     margin-bottom: 0rem;
 }
@@ -1193,9 +1198,7 @@ input[type=submit]{
 
 /* Cadabra Case Study */
 
-#cadabra h3{
-    color: #1f1642;#1f1642;
-}
+
 
 #cadabra-hero{
     background-image: url("imgs/cadabra_hero.png");
