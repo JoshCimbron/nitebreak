@@ -128,7 +128,7 @@ h5{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
     margin: 0;
-    color: #261768;
+    color: #1f1642;
 }
 
 h6{
@@ -142,7 +142,7 @@ h6{
 p{
     font-size: 2.0rem;
     line-height: 4rem;
-    color: #35286A;
+    color: #1f1642;
     font-family: 'Roboto Mono', sans-serif;
     margin: 0;
 }
@@ -627,6 +627,10 @@ a{
 /* case study styling */
 /* 4 Seasons */
 
+h3, h4, h6{
+    color: #1f1642
+}
+
 #title{
     display: flex;
     height: 40vh;
@@ -634,7 +638,7 @@ a{
 }
 
 #title h2{
-    color: #261768;
+    color: #1f1642;
 }
 
 .layout-container-left{
@@ -757,10 +761,30 @@ a{
     }
 }
 
+#problem_statement{
+    background-image: url("imgs/quotes.svg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #problem_statement{
+        background-image: none;
+    }
+}
+
+#problem_statement h5{
+    color: gray;
+    font-family: 'Indie Flower', sans-serif;
+    margin-top: 20px;
+}
+
 .splitpic-wrap{
     padding: 0 10%;
 }
-
 
 
 .center-pic{
@@ -780,6 +804,41 @@ a{
     width: 100%;
     object-fit: cover;
     margin-top: 6rem;
+}
+
+#problem-cadabra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0px;
+}
+
+#4seasons #aesthetic, #cadabra #aesthetic{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#problem_statement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+
+    #problem_statement{
+        display: flex;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    #challenge, #challenge_4seasons{
+        margin: 20px 0px;
+    }
 }
 
 .splitpic{
@@ -867,7 +926,7 @@ a{
 
 #programming-story .width-60 p:nth-child(3){
     margin-top: 20px;
-    color: #8f9199;
+    color: #73757c;
 }
 
 #programming-story .width-60 a{
@@ -922,9 +981,19 @@ a{
     color: #F09139;
 }
 
+@media screen and (min-width: 768px) {
+
+   #launch{
+       display: none;
+   }
+   #footer-img{
+       display: none;
+   }
+}
+
 #next-case{
     background-color: #f3eddf;
-    color: #261768;
+    color: #1f1642;#1f1642;
 }
 
 #next-case h6{
@@ -1014,25 +1083,23 @@ a{
 }
 
 .bio h3{
-    color: #251B4C;
+    color: #8E71FF;
     line-height: 140%;
-    font-size: 36px;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
 }
 
 @media screen and (max-width: 1023px) {
 
     .bio h3{
-        font-size: 28px;
         margin-top: 4rem;
-        margin-bottom: 2rem;
+        margin-bottom: 0rem;
         line-height: 145%;
     }
 }
 
 .bio h5{
     font-family: 'Indie Flower', sans-serif;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     font-size: 24px;
     color: #848484;
 }
@@ -1041,7 +1108,7 @@ a{
 
     .bio h5{
         font-size: 21px;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -1126,6 +1193,10 @@ input[type=submit]{
 
 /* Cadabra Case Study */
 
+#cadabra h3{
+    color: #1f1642;#1f1642;
+}
+
 #cadabra-hero{
     background-image: url("imgs/cadabra_hero.png");
     background-position: center;
@@ -1133,6 +1204,11 @@ input[type=submit]{
 
 #identify-cadabra{
     background-color: #340e66;
+    color: white;
+}
+
+
+#identify-cadabra h3{
     color: white;
 }
 
@@ -1203,8 +1279,17 @@ input[type=submit]{
 }
 
 
-#whats-next-cadabra{
-    color: #261768;
+#what-i-learned-cadabra{
+    background-color: #1f1642;#1f1642;
+}
+
+#what-i-learned-cadabra h3{
+    color: white;
+    background-color: #1f1642;#1f1642;
+}
+
+#what-i-learned-cadabra p{
+    color: #c69aff;
 }
 
 @media screen and (max-width: 1023px) {
