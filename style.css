@@ -134,7 +134,7 @@ h5{
 h6{
     font-size: 2.8rem;
     font-weight: 300;
-        font-family: "roboto mono", sans-serif;
+    font-family: "roboto mono", sans-serif;
     line-height: 140%;
     margin: 0 0 14px 0;
 }
@@ -386,10 +386,10 @@ a{
     background-color: white;
 }
 
-
-
-.about-container span{
-    text-decoration: line-through;
+.about-container #wongdoody{
+    color: rgb(49, 204, 49);
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 #projects{
@@ -999,7 +999,7 @@ h3, h4, h6{
 
 #next-case{
     background-color: #f3eddf;
-    color: #1f1642;#1f1642;
+    color: #1f1642;
 }
 
 #next-case h6{
@@ -1105,8 +1105,16 @@ h3, h4, h6{
 .bio h5{
     font-family: 'Indie Flower', sans-serif;
     margin-bottom: 2rem;
-    font-size: 24px;
+    font-size: 28px;
     color: #848484;
+}
+
+#wongdoody{
+    color: rgb(49, 204, 49);
+}
+
+#infosys{
+    color:rgb(54, 167, 219);
 }
 
 @media screen and (max-width: 1023px) {
@@ -1283,12 +1291,12 @@ input[type=submit]{
 
 
 #what-i-learned-cadabra{
-    background-color: #1f1642;#1f1642;
+    background-color: #1f1642;
 }
 
 #what-i-learned-cadabra h3{
     color: white;
-    background-color: #1f1642;#1f1642;
+    background-color: #1f1642;
 }
 
 #what-i-learned-cadabra p{
